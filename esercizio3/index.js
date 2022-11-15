@@ -17,3 +17,4 @@ console.log( "L'area del quadrato " + geometricShit.name + " è: " + risultatoAr
 geometricBro.compareShape(geometricShit);
 
 geometricShit.drawShape();
+geometricShit.drawShapeVUOTO();

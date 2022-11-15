@@ -58,7 +58,7 @@ let GeometricShape = class {
 
     }
 
-    drawShapeVECCHIO() {
+    drawShapeVUOTO() {
         let simbolini = [];
         let latoLength = parseInt(this.firstSide);
 
@@ -75,7 +75,7 @@ let GeometricShape = class {
         console.log(shape);
 
         shape = '';
-        for(let i=1; i<latoLength; i++) {   // STAMPA PRIMO VERTICALE
+        for(let i=0; i<latoLength; i++) {   // STAMPA PRIMO VERTICALE
             shape = shape + simbolini[i] + '\n';
         };
         console.log( shape );
