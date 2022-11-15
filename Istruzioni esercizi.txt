@@ -1,0 +1,42 @@
+ESERCIZIO 1:
+
+   Creare una classe Student, con i seguenti campi:
+   nome, cognome, data di nascita, hobby, motto
+   e i metodi:
+     getAge() -> "$Nome ha X anni"
+     getMotto() -> "Il motto di $Nome e' $Motto"
+   Bonus:
+     compareAge(s1, s2) ritorna true se s1 piu' vecchio
+     haveSameHobby(s1,s2)
+
+ESERCIZIO 2:
+
+   Scrivere una classe StringSplitter e un main per testarla che:
+   contenga una proprieta' stringa toBeSplit e abbia un 
+   metodo getSplits(numberOfLetters) che preso un numero 
+   ritorni tutte le sottostringhe della stringa campo (toBeSplit)
+     esempio:
+     instantiatedObjectName.getSplits(2); // ci, ao, ia
+     e un metodo che ritorna tutte le sottostringhe in un array 
+     getAllSplits() (se non riuscite a prenderle tutte tutte 
+     andate oltre non ci morite dietro)
+   BONUS:
+     scrivere un metodo che prende 2 oggetti e ritorna un 
+     array con ( SUPER BONUS se tutte) le sottostringhe 
+     presenti in entrambe.
+     esempio bomba bombay -> [bo, bom, bomba, om ... ecc ...]
+
+ESERCIZIO 3:
+
+   Scrivere una classe GeometricShape e un main per testarla che:
+   contenga le proprieta':
+     name (gianni), type (square), numberOfSides(4), 
+     firstSide(3), secondSide(3)
+     e con i metodi:
+       calculatePerimeter()
+       calculateAreas()
+       getter e stetter per ogni campo
+     BONUS:
+       drawShape() -> (su terminale un quadrato con 
+       i trattini corrispondenti)
+       compareShapes(S1,S2) -> ritorna true se s1 e' maggiore di s2
